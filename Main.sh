@@ -35,7 +35,7 @@ qiime dada2 denoise-single \
   --o-table table-dada2.qza \
   --o-denoising-stats stats-dada2.qza
 #Download classifier
-wget https://data.qiime2.org/2024.2/common/silva-138-99-nb-classifier.qza  #If failed, please use local transmission
+wget https://data.qiime2.org/classifiers/sklearn-1.4.2/silva/silva-138-99-nb-classifier.qza  #If failed, please use local transmission
 #Species annotation
 qiime feature-classifier classify-sklearn \
   --i-classifier silva-138-99-nb-classifier.qza \
