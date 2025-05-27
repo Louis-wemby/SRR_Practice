@@ -1,4 +1,4 @@
-# SRR
+# SRR Practice
 Species abundance analysis with SRR data. 
 
 The SRR data is available via NCBI(https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR10102333/SRR10102333 & https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR10102255/SRR10102255).
